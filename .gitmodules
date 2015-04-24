@@ -1,0 +1,6 @@
+[submodule "test/vendor/mocha"]
+	path = test/vendor/mocha
+	url = https://github.com/mochajs/mocha.git
+[submodule "test/vendor/chai"]
+	path = test/vendor/chai
+	url = https://github.com/chaijs/chai.git

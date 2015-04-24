@@ -18,6 +18,6 @@ define("expect", ["chai"], function(chai){
 	return chai.expect;
 });
 
-require(["mocha"], function(mocha){
+require(["mocha", "message-spec.js"], function(mocha){
 	mocha.run();
 });

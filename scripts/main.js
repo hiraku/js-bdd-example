@@ -5,4 +5,8 @@ require.config({
 });
 
 require(["jquery", "message"], function($, Message){
+	var message = new Message("conf.json");
+	message.get().done(function(text){
+		$(".message").text(text);
+	});
 });

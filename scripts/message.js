@@ -1,3 +1,16 @@
 define(["jquery"], function($){
-	console.log("in message.js", $("body").jquery);
+	function Message(confUrl){
+	}
+
+	Message.prototype.get = function(){
+		var deferred = $.Deferred();
+		deferred.resolve();
+
+		return deferred.promise();
+	};
+
+	Message.prototype.put = function(element){
+	};
+
+	return Message;
 });

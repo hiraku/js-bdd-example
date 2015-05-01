@@ -4,3 +4,6 @@
 [submodule "test/vendor/chai"]
 	path = test/vendor/chai
 	url = https://github.com/chaijs/chai.git
+[submodule "test/vendor/blanket"]
+	path = test/vendor/blanket
+	url = https://github.com/alex-seville/blanket.git
